@@ -96,7 +96,7 @@ while play_again:
 
 #    n-=1
     #blank_word = []
-    with open("practice30.txt") as d:
+    with open("File Name") as d:
         words_list = d.read()
         chosen_word = random.choice(words_list).lower()
     #print(chosen_word)
